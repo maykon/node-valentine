@@ -1,0 +1,30 @@
+html,
+body {
+  all: unset;
+}
+
+html,
+body,
+#back {
+  widows: 100%;
+  height: 100%;
+}
+
+#back {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 108, 97, 1),
+    rgba(255, 108, 97, 0.3)
+  );
+  background-color: #ff6c61;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.5;
+}
